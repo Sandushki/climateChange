@@ -9,7 +9,7 @@ This website's goal is to help people develop ways to fight with climate change.
 
 The only way this website informs is by user-created posts and an AI model that classifies which factor of climate change is being considered.
 
-## Function of the Project
+##  Function of the Project
 This website is rich in AI tools and user input systems. The website contains Forums which allows users to input large bodies of text easily with the help of Speech Recognition. It also contains an AI model which allows users to input images and help artificial intelligence classify which factor of climate change is being considered, to help users develop a solving method easier, by classifying to different groups solved by different ways.
 
 There are the folowing in the project:
@@ -19,7 +19,7 @@ There are the folowing in the project:
 
 These functions help users find solutions to Climate Change in the best way.
 
-## How to Set Up YOUR OWN
+##  How to Set Up YOUR OWN
 You can quickly set up your own version of this basic project by doing the following steps.
 1. Download code from GitHUB
 2. Open code in your local editor
@@ -52,7 +52,7 @@ You can quickly set up your own version of this basic project by doing the follo
    
 ***Phew!*** That was hard (at least for me)! I hope you managed set up the code. Now you are ready, and you can run the main.py file and follow the instructions there to run your own version of your project!
 
-## Giving Feedback
+##  Giving Feedback
 You can give feedback to the website via the email provided in this ReadME file. You can also give feedback the easiest by posting to the forums page! This way, you have the chance to reach possible interests AND explain your thoughts and give feedback, also with the help of speech recognition speech-to-text dictation. Have fun!
 
 ## Importance
