@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Forums</title>
+</head>
+<body>
+    {% block content %}
+    <a href="/create">
+        <h1>Enter a form</h1>
+    </a>
+    <h2 style="margin-top: 50px; margin-bottom: 40px;">Forum Feed</h2>
+    {% for el in posts %}
+    <h2>{{el.title}}</h2>
+    <p style="margin-bottom: 60px;">{{el.text}}</p>
+    {%endfor%}
+    {%endblock%}
+</body>
+</html>

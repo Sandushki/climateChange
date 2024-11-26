@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>AI Image Classification</title>
+</head>
+<body>
+    {% block content %}
+    <form action="/image" method="post" enctype="multipart/form-data">
+        <label for="file">
+            <input type="file" accept="image/png, image/jpg" enctype="multipart/form-data" name="file" id="file" required>
+        </label>
+        <button type="submit">Upload File</button>
+        <p>Only upload .png or .jpg files.</p>
+    </form>
+    {% if filename %}
+        <img src="{{url_for('static', filename='uploads/' + filename)}}" width="100" height="100" alt="Image"> 
+        <p>Görseliniz {{class_name}} kategorisindeki etkilerdedir.</p>
+    {% endif %}
+    {%endblock%}
+</body>
+</html>

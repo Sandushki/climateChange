@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Create</title>
+</head>
+<body>
+    {% block content %}
+    <form action="/create" method="post">
+        <div class="form">
+        <label for="title">
+            <input class="title" type="text" name="title" id="title" placeholder="Başlık" required>
+        </label>
+        <label for="text">
+            <textarea class="text" name="text" id="text" placeholder="Enter body text(optional)">{{text}}</textarea>
+        </label>
+        <button type="submit">Post to feed</button>
+        <a class="record" href="/record">Record</a>
+    </div>
+    </form>
+    
+    {%endblock%}
+</body>
+</html>
