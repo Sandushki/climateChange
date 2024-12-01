@@ -4,12 +4,12 @@
 
 This project aims to help people create solutions to climate change. With its integrated AI platform and Forum page, people can learn, have fun, and be heard. This way, this website creates an environment that makes people think of solutions and share their ideas.
 
-## Project Description
+##  Project Description
 This website's goal is to help people develop ways to fight with climate change. The website DOES NOT contain any informative article by default, but gives the environment for people to create informative articles and be heard. This helps information form and people gather in a single subject that the people now try to think and share ways of fighting with climate change. <br/>
 
 The only way this website informs is by user-created posts and an AI model that classifies which factor of climate change is being considered.
 
-##  Function of the Project
+##  Functions of the Project
 This website is rich in AI tools and user input systems. The website contains Forums which allows users to input large bodies of text easily with the help of Speech Recognition. It also contains an AI model which allows users to input images and help artificial intelligence classify which factor of climate change is being considered, to help users develop a solving method easier, by classifying to different groups solved by different ways.
 
 There are the folowing in the project:
