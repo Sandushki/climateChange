@@ -36,7 +36,7 @@ You can quickly set up your own version of this basic project by doing the follo
       8. pipenv install pillow
       9. pip install pyaudio
       10. pipenv install speechrecognition
-    3. If on MAC continue doing the following steps. If on Windows, you can skip to step 4 (step that comes after 7)
+    3. If on MAC continue doing the following steps. If on Windows, you can skip to step 4 (step that comes after VII)
     4. Open terminal
     5. Enter the following command:
        * /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
