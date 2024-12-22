@@ -18,4 +18,4 @@ def recognize():
         audio = recog.listen(audio_file)
         #print('Sesler yazıya çevriliyor...')
 
-        return recog.recognize_google(audio, language='en-EN')
+        return recog.recognize_google(audio, language='tr-TR')

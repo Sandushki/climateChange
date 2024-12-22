@@ -2,7 +2,7 @@ from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
-def prediction(img):
+def prediction(img): # Teachable Machine sitesinden alıntıdır. Bu kod, sitenin verdiği modeli doğru şekilde çalıştırır
     # Disable scientific notation for clarity
     np.set_printoptions(suppress=True)
 
